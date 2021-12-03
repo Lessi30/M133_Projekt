@@ -1,5 +1,5 @@
-'use strict'
-import { send } from "https://deno.land/x/oak@v6.3.1/mod.ts";
+'use strict';
+import { send } from "../deps.js"
 
 export const frontendFiles = context => send(
     context,
@@ -7,5 +7,4 @@ export const frontendFiles = context => send(
     {
         root: `${Deno.cwd()}/frontend`,
         index: "index.html"
-    }
-);
+    });
