@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=cyrillic');
+@import 'styles.css';
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+textarea, button, input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
